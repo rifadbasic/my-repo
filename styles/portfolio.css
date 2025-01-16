@@ -365,9 +365,6 @@ body{
 
 /* small screen */
 
-.hide{
-  display: none;
-}
 
 @media screen and  (max-width:576px) {
   .navbar,
@@ -385,7 +382,7 @@ body{
   }
 
   .head{
-    max-height: 1150px;
+    max-height: 1140px;
   }
   .header-text{
     display: flex;
@@ -402,7 +399,7 @@ body{
 
   .header-image img{
     width: 360px;
-    height: 640px;
+    max-height: 630px;
     bottom: 0;
   }
   .about{
